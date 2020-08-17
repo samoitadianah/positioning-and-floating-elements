@@ -3,19 +3,20 @@
 <head>
 	<title>Positioning and Floating Elements</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 	<div class="top-nav">
 		<div class="left">
-			<img src="images/burger.svg">
-			<img src="images/search.svg">
-			<a href="#">SPACE & COSMOS</a>
+            <i style="margin-top: 15px;" class="fa fa-bars"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i style="margin-top: 15px;" class="fa fa-search"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<p><strong>SPACE & COSMOS</strong></p>
 			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 			<img class="logo" src="images/logo.png">
 		</div>
 		<div class="right">
-			<button>Subscribe Now</button>
-			<button>Login</button>
+			<button style="color: white; font-size: 20; border-radius: 3px; border: none;"><strong>Subscribe Now</strong></button>
+			<button style="color: white; font-size: 20; border-radius: 3px; border: none;"><strong>Login</strong></button>
 		</div>
 	</div>
 	<div class="main">
@@ -25,7 +26,8 @@
 	</div>
 	<div class="content">
 		<h4>By <a href="#">Dennis Overbye</a></h4>
-		<p>March 17,2014</p>
+        <br>
+		<p>March 17,2014 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<i class="fa fa-facebook"></i> &nbsp; &nbsp;<i class="fa fa-twitter"></i>&nbsp; &nbsp;<i class="fa fa-envelope"></i>&nbsp; &nbsp;<i class="fa fa-share"></i>&nbsp; &nbsp;<i class="fa fa-bookmark"></i>&nbsp; &nbsp;<i class="fa fa-comment"></i></p>
 		<div class="post">
 			<p>CAMBRIDGE, Mass. — One night late in 1979, an itinerant young physicist named Alan Guth, with a new son and a year’s appointment at Stanford, stayed up late with his notebook and equations, venturing far beyond the world of known physics.
             </p>
@@ -198,10 +200,16 @@
               </a>
               | <a href="#">Subscribe</a>
             </p>
-            <button>READ 615 COMMENTS</button>
+            <button style="color: white; font-size: 18px; padding: 15px;"><strong>READ 615 COMMENTS</strong></button>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <i class="fa fa-facebook"></i>&nbsp;&nbsp;
+            <i class="fa fa-twitter"></i>&nbsp;&nbsp;
+            <i class="fa fa-envelope"></i>&nbsp;&nbsp;
+            <i class="fa fa-share"></i>
 	</div>
+    <br><br>
 	<section class="left-section">
-		<hr />
+		<hr>
 		<h2>More in Space and Astronomy</h2>   
         <div class="grid-items2">
             <figure>
@@ -242,29 +250,28 @@
                  <time>Jul. 30</time>
                 </figcaption>
             </figure>
-            <h2>Editors’ Picks</h2>
               <figure>
                 <img src="images/15.png"/>
-                <figcaption><span></span><a href="#"></a><br>
+                <figcaption><span>Miguel Porlan</span><a href="#">Too Much Mars? Let's Discuss Other Worlds.</a><br>
                 <time></time>
                 </figcaption>
               </figure>   
                <figure>
                 <img src="images/16.png"/>
-                <figcaption><span></span><a href="#"></a><br>
+                <figcaption><span>NASA/JPL-Caltech/University of Arizona</span><a href="#">ow NASA Found the Ideal Hole on Mars To Land IN</a><br>
                 <time></time>
                 </figcaption>
               </figure> 
                <figure>
                 <img src="images/17.png"/>
-                <figcaption><span></span><a href="#"></a><br>
+                <figcaption><span>Image by Joe Skipper/Reuters</span><a href="#">NASA Launches Perseverance Rover, Caping Summer of Missions to Mars</a><br>
                 <time></time>
                 </figcaption>
               </figure>
           </div>
     </section>
 	<section class="right-section">
-		<hr />
+		<hr>
 		<h2>Most Popular</h2>
 		<h3><a href="#">Trying To Make It Big Online? Getting Signed Isn't Everything</a></h3><hr> 
         <h3><a href="#">How Kate Pierson, of the B-52's, and Monica Coleman, Spend Their Sundays</a></h3><hr> 
@@ -278,8 +285,15 @@
         <h3><a href="#">He Needed to Train. David Duchovny's Pool Was Out There.</a></h3><hr>  
 	</section>
     <footer>
+       
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <hr style="color: grey; margin-left: 50px; margin-right: 50px;">
+        <hr style="color: grey; margin-left: 50px; margin-right: 50px;">
+            <img style="float: left; width: 200px; height: 100px; margin-left: 30px;" src="images/logo.png">
+            <a class="link" style="text-decoration: none; float: right; margin-right: 50px; margin-top: 50px;" href="#">Go to Home Page >></a>
 	    <div class="footer-list">
           <ul class="list">
+
             <h3>NEWS</h3>
             <li><a href="#">Home Page</a></li>
             <li><a href="#">World</a></li>
@@ -354,7 +368,7 @@
           </ul>
           <ul class="subscribe-list list">
             <h3>SUBSCRIBE</h3>
-            <li><a href="#"><strong>Home Delivery</strong></a></li>
+            <li><a href="#"><i class="fa fa-game-board"></i><strong>Home Delivery</strong></a></li>
             <li><a href="#"><strong>Digital Subscription</strong></a></li>
             <li><a href="#"><strong>Games</strong></a></li>
             <li><a href="#"><strong>Cooking</strong></a></li>

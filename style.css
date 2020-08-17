@@ -1,16 +1,26 @@
+html, body{
+	height: auto;
+	width: auto;
+}
 .top-nav{
 	height: 60px;
 	width: 100%;
 	position: sticky;
 	border-bottom: 1px solid black;
 }
+i{
+	margin-bottom: 10px;
+}
 .left{
 	float: left;
+	display: flex;
 	padding: 5px;
+	text-align: center;
 }
 .left img{
 	margin-top: 0px;
 	padding: 5px;
+	margin-bottom: 5px;
 }
 .left a{
 	text-decoration: none;
@@ -26,7 +36,7 @@
 	width: 250px;
 }
 button{
-	padding: 5px;
+	padding: 10px;
 	margin-right: 20px;
 	margin-top: 10px;
 	background-color: rgb(6,111,131);
@@ -131,16 +141,23 @@ figcaption{
 	height: 50px;
 	width: 100%;
 }
+.down{
+	height: 60px;
+	width: 100%;
+}
 footer{
 	position: relative;
 	width: 100%;
 	text-decoration: none;
 }
 .footer-list{
-	display: block;
 	display: flex;
+	justify-content: space-around;
 	height: 500px;
 	width: 100%;
+}
+.list{
+	list-style-type: none;
 }
 .footer-list li a{
 	text-decoration: none;
